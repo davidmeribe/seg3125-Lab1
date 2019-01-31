@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 //add more details option here
                 case R.id.navigation_settings:
-                    mTextMessage.setText(R.string.menu_settings);
+                    //mTextMessage.setText(R.string.menu_settings);
+                    //SeetingActivity.
                     return true;
             }
             return false;
@@ -41,18 +42,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Spinner frequency = (Spinner) findViewById(R.id.frequency);
-        Spinner currency = (Spinner) findViewById(R.id.currency);
-
-        ArrayAdapter<CharSequence> currencyAdapter = ArrayAdapter.createFromResource(this, R.array.currency, android.R.layout.simple_spinner_item);
-        currencyAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
-        currency.setAdapter(currencyAdapter);
-
-
-        ArrayAdapter<CharSequence> frequencyAdapter = ArrayAdapter.createFromResource(this, R.array.frequency, android.R.layout.simple_spinner_item);
-        frequencyAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
-        currency.setAdapter(frequencyAdapter);
-
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
