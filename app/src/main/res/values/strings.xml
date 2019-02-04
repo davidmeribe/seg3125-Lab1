@@ -7,17 +7,7 @@
     <string name="menu_settings">Settings</string>
     <string name="menu_details">More Details</string>
     <string name="welcome_message">Welcome! Calculate your Mortgage</string>
-<<<<<<< HEAD
-    <string name="welcome_principle">Enter Principal Amount</string>
-    <string name="content_summary">Summary Content</string>
-    <string name="content_welcome">Welcome Content</string>
-    <string name="welcome_name">Enter your name </string>
-    <string name="welcome_interest">Enter interest rate</string>
-    <string name="welcome_amortization">Amortization period</string>
-    <string name="welcome_calculate">Calculate</string>
-    <string name="welcome_reset">Reset</string>
-    <string name="summary_info">x should make y payments of z!</string>
-=======
+
     <string name="welcome_principle">Enter Principle Amount</string>
 
     <string-array name="currency">
@@ -31,7 +21,6 @@
         <item>weekly,</item>
         <item>monthly</item>
     </string-array>
->>>>>>> 6af54ee85afc0e1479166a7d4c2244a0791a9e63
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -34,11 +34,13 @@ public class MainActivity extends AppCompatActivity implements WelcomeFragment.O
                     switchFragment(new SummaryFragment());
                     return true;
                 case R.id.navigation_details:
-                    mTextMessage.setText(R.string.menu_details);
+                    // mTextMessage.setText(R.string.menu_details);
+                    switchFragment(new DetailsFragment());
                     return true;
                 case R.id.navigation_settings:
                     //mTextMessage.setText(R.string.menu_settings);
                     //SeetingActivity.
+                    switchFragment(new SettingFragment());
                     return true;
             }
             return false;

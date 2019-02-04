@@ -6,12 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
 import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class DetailsFragment extends Fragment {
 
@@ -25,7 +20,7 @@ public class DetailsFragment extends Fragment {
 
         // Inflate the xml file for the fragment
 
-        return inflater.inflate(R.layout.fragment_blank, parent, false);
+        return inflater.inflate(R.layout.fragment_details, parent, false);
     }
 
     @Override
