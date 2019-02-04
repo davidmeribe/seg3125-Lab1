@@ -9,6 +9,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements WelcomeFragment.OnFragmentInteractionListener,
@@ -35,7 +37,8 @@ public class MainActivity extends AppCompatActivity implements WelcomeFragment.O
                     mTextMessage.setText(R.string.menu_details);
                     return true;
                 case R.id.navigation_settings:
-                    mTextMessage.setText(R.string.menu_settings);
+                    //mTextMessage.setText(R.string.menu_settings);
+                    //SeetingActivity.
                     return true;
             }
             return false;
